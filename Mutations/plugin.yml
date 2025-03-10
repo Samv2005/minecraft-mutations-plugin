@@ -1,0 +1,62 @@
+name: Mutations
+main: com.sam.mutations.main.Main
+version: 1.0
+api-version: 1.21
+commands:
+  blazeCurse:
+    description: Toggles whether blaze fireballs summon random mobs
+    usage: /blazeCurse <enable/disable>
+  mutations:
+    description: Toggles the Mutations plugin (if disabled, no mutations will activate)
+    usage: /mutationsEnable <enable/disable>
+  creeperDupe:
+    description: Toggles creepers exploding into more creepers, and charge/explode when hit by creepers
+    usage: /Toggles <enable/disable>
+  explodeSummon:
+    description: Toggles non-creeper explosions summoning creepers
+    usage: /explodeSummon <enable/disable>
+  explosiveScale:
+    description: Toggles explosive power scaling, and increases/decreases/sets the multiplier
+    usage: /explosiveScale <enable/disable/increase/decrease/get> <number if /explosiveScale set>
+  explosiveProjectiles:
+    description: Toggles projectiles having a chance to explode
+    usage: /explosiveProjectiles <enable/disable>
+  projectileSummon:
+    description: Toggles projectiles having a chance to summon mobs
+    usage: /projectileSummon <enable/disable>
+  enderThief:
+    description: Toggles endermen grabbing blocks more often
+    usage: /enderThief <enable/disable>
+  mobEffects:
+    description: Toggles mobs having a chance to inflict a random negative effect on players
+    usage: /mobEffects <enable/disable>
+  mobCrit:
+    description: Toggles mobs having a chance to deal magic damage
+    usage: /mobCrit <enable/disable>
+  mobDash:
+    description: Toggles mobs occasionally dashing towards the player
+    usage: /mobDash <enable/disable>
+  neutralAttack:
+    description: Toggles whether neutral mobs attack players
+    usage: /neutralAttack <enable/disable>
+  strongStorm:
+    description: Toggles lightning striking more often, targeting players and transformable mobs. Also makes thunderstorms more frequent
+    usage: /strongStorm <enable/disable>
+  mobStrength:
+    description: Toggles mobs sometimes spawning with a random positive effect
+    usage: /mobStrength <enable/disable>
+  creeperFuse:
+    description: Toggles creepers having varied fuse lengths
+    usage: /creeperFuse <enable/disable>
+  mobGroup:
+    description: Toggles mobs spawning in increasingly large groups
+    usage: /mobGroup <enable/disable/increase/decrease/get> <number if /mobGroup set>
+  bossHeal:
+    description: Toggles bosses sometimes healing on hit
+    usage: /bossHeal <enable/disable>
+  bossEffects:
+    description: Toggles bosses sometimes getting positive effects on hit
+    usage: /bossEffects <enable/disable>
+  pearlCurse:
+    description: Toggles ender pearls sometimes teleporting players somewhat randomly
+    usage: /pearlCurse <enable/disable>
